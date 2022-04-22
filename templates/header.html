@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block title %} Flask CRUD {% endblock %}
+
+{% block body %}
+
+{% if "id" in session: %}
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="{{ url_for('index') }}">Jigyasha SHP 18</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href = "{{ url_for('index') }}"><span class = "glyphicon glyphicon-home"></span><b> Home </b></a></li>
+                <li><a href = "{{ url_for('data') }}"><span class = "glyphicon glyphicon-save-file"></span><b> Data </b></a></li>
+                <li><a href = "{{ url_for('live') }}"><span class = "glyphicon glyphicon-log-in"></span><b> Live </b></a></li>
+                <li><a href = "{{ url_for('test') }}"><span class = "glyphicon glyphicon-log-in"></span><b> Test </b></a></li>
+                <li><a href = "{{ url_for('logout') }}"><span class = "glyphicon glyphicon-log-in"></span><b> Logout </b></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{% else: %}
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="{{ url_for('index') }}">Jigyasha SHP 18</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href = "{{ url_for('index') }}"><span class = "glyphicon glyphicon-home"></span><b> Home </b></a></li>
+                <li><a href = "{{ url_for('signup') }}"><span class = "glyphicon glyphicon-save-file"></span><b> Signin </b></a></li>
+                <li><a href = "{{ url_for('login') }}"><span class = "glyphicon glyphicon-log-in"></span><b> Login </b></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{%endif%}
+{% endblock %}

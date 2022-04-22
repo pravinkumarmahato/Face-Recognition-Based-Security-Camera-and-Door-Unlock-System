@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+        <script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+        <style>
+            #banner_image {
+    		    padding-bottom: 61px;
+    		    width: 100%;
+    		    text-align: center;
+    		    color: #f8f8f8;
+    		    background: url({{ url_for('static', filename='img/IoT-Device-Attacks.jpg') }}) no-repeat center center;
+    		    background-size: cover;
+		    }
+		    #banner_content {
+    		    position: relative;
+    		    padding-top: 6%;
+    		    padding-bottom: 6%;
+    		    margin-top: 20%;
+    		    margin-bottom: 12%;
+    		    background-color: rgba(0, 0, 0, 0.8);
+   		        max-width: 660px;
+		    }
+        </style>
+        <meta charset="UTF-8">
+        <title>{% block title %} {% endblock %} </title>
+    </head>
+    <body>
+
+        {% block body %} {% endblock %}
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    </body>
+</html>

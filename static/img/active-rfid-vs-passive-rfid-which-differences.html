@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <title>Active RFID vs. Passive RFID: which differences?</title>
+  
+  <meta charset="ISO-8859-15" />
+
+  <meta name="description"   content="Do you know the difference between Active RFID and Passive RFID? Discover the advantages and disadvantages of each of these technologies." />
+  <meta name="copyright"     content="elainnovation.com" />
+  <meta name="robots"        content="follow,index,all" />
+  <meta name="gs-generated-date" content="2021-03-09 12:58:38" />
+  <link rel="canonical" href="https://elainnovation.com/active-rfid-vs-passive-rfid-which-differences.html" />
+    <base href="https://elainnovation.com/" />
+<meta property="og:title" content="Active RFID vs. Passive RFID: which differences?">
+<meta property="og:url" content="https://elainnovation.com/active-rfid-vs-passive-rfid-which-differences.html">
+<meta property="og:image" content="https://elainnovation.com/Local/gus/files/1335/bigbanniere-article-rfid.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <script src="resources/jquery/jquery-with-jqueryui.pack.min.js?v=134628e" type="text/javascript" ></script>
+  <script src="resources/scriptaculous/compressed/gs_scriptaproto.js?v=134628e" type="text/javascript" ></script>
+  <script src="gsite.js?v2&v=134628e" type="text/javascript" ></script>
+  <script src="ajaxGSiteFunc.js?v=134628e" type="text/javascript" ></script>
+  <script src="resources/foundation/js/foundation.min.js?v=134628e" type="text/javascript" ></script>
+  <script src="resources/foundation/js/foundation/foundation.topbar.js?v=134628e" type="text/javascript" ></script>
+  <script src="Local/ela/scripts/lightSlider/js/jquery.lightSlider.min.js?v=134628e" type="text/javascript" ></script>
+  <script src="resources/galleria/galleria-1.4.2.min.js?v=134628e" type="text/javascript" ></script>
+  <script src="Local/actualites/pattern/classic/galleria.classic.min.js?v=134628e" type="text/javascript" ></script>
+  <link rel="stylesheet" href="Local/ela/FoundationGrid/css/foundation.css" />
+  <script src="Local/ela/FoundationGrid/js/vendor/modernizr.js"></script>
+  <script type="text/javascript" src="Local/ela/scripts/tinyslider2/script.js"></script>
+  <script src='Local/ela/scripts/swipe/swipe.min.js'></script>
+  <script src='Local/ela/scripts/jquery.touchslider.min.js'></script>
+
+  
+  <link type="text/css" rel="stylesheet" href="css/login.css?v=134628e" />
+  <link type="text/css" rel="stylesheet" href="Local/ela/scripts/lightSlider/css/lightSlider.css?v=134628e" />
+  <link type="text/css" rel="stylesheet" href="Local/actualites/pattern/classic/galleria.classic.css?v=134628e" />
+  <link type="text/css" rel="stylesheet" href="css/responsive_menu.css?v=134628e" />
+  <link type="text/css" rel="stylesheet" href="css/gridapp.css?v=134628e" />
+  <link type="text/css" rel="stylesheet" href="modules/core/txt/view/txt.css?v=134628e" />
+  <link type="text/css" rel="stylesheet" href="modules/std/social_bookmarks/social_bookmarks.css?v=134628e" />
+  <link type="text/css" rel="stylesheet" href="Local/ela/ela.css?v=134628e" />
+  <link type="text/css" rel="stylesheet" href="css/appli.css?v=134628e" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+<link href='Local/ela/blog_ela.css' rel='stylesheet' type='text/css'>
+
+<!-- Hotjar Tracking Code for https://elainnovation.com/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1654764,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+
+
+<!-- 3RD_PARTY_SCRIPT id="google-analytics" -->
+<script type="text/javascript">
+  var useTrackAnchor = document.URL.search('#utm_source') > 0;
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25715191-2']);
+  if (useTrackAnchor) {_gaq.push(['_setAllowAnchor', true]);}
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_setCustomVar',
+      1,
+      'ParentLvl1',
+      '1124'
+   ]);
+  (function() {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+   s.parentNode.insertBefore(ga, s);
+  })();
+jQuery(function(){
+  jQuery('a').click(function () {
+   var out_url = jQuery(this).attr('href');
+   if(out_url!=undefined && out_url.substr(-4, 4) == '.pdf'){
+     _gaq.push(['_trackEvent', 'download_pdf', jQuery(this).attr('href'),jQuery(this).text()]);
+   }
+  });
+});
+</script>
+<!-- 3RD_PARTY_SCRIPT_END -->
+
+</head>
+<body class="body_ela">
+
+  
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.2';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div style="max-width:100%;overflow-x:hidden">
+
+<div class="">
+  <div id="photo_page2" class="content slideshow slide_page">
+    <div id="header" class="header_home page_blog">
+      <div class="row">
+        <div class="large-2 medium-6 small-6 columns">
+          <a href="."><img class="logo" title="ELA Innovation" alt="Ela - RFid Active - Identification par radiofrequence active" src="./Local/ela/images/header/ela_innovation.png"></a>
+         </div>
+         <div class="large-10 medium-6 small-6 columns">
+            <div id="header_menu">
+              <div class="mnu_burger" style="display: none;">
+  <ul id="adm_menu1default" class="mega-menu gs_responsive">
+    <li id="mnu_1095" class="item_node first"><a  href="our-products.html" class="link_item_node first">PRODUCTS</a>
+    <ul id="adm_menu2default1095" class="ul_2 menu_node">
+      <li id="mnu_949" class="item_node_level_2 first"><a  href="my-beacon-list.html" class="link_item_node_level_2 first">My <span>Beacon</span></a>
+      <ul id="adm_menu3default949" class="ul_3 menu_node">
+        <li id="mnu_1115" class="item_node_level_3 first"><a  href="bluetooth-low-energy.html" class="link_item_node_level_3 first">Bluetooth Low Energy (BLE)</a></li>
+        <li id="mnu_1116" class="item_node_level_3"><a  href="wirepas-mesh.html" class="link_item_node_level_3">WIREPAS MESH</a></li>
+        <li id="mnu_1231" class="item_node_level_3"><a  href="quuppa-aoa-rtls.html" class="link_item_node_level_3">QUUPPA AOA RTLS</a></li>
+        <li id="mnu_1195" class="item_node_level_3 last"><a  href="settings-software-accessories.html" class="link_item_node_level_3 last">Settings Software & accessories</a></li>
+      </ul>
+      </li>
+      <li id="mnu_1155" class="item_node_level_2"><a  href="index.php?pagendx=1156" class="link_item_node_level_2">My LoRa</a></li>
+      <li id="mnu_mnu_21" class="item_node_level_2 last"><a  href="products.html" class="link_item_node_level_2 last">My Active RFID</a>
+      <ul id="adm_menu3defaultmnu_21" class="ul_3 menu_node">
+        <li id="mnu_481" class="item_node_level_3 first"><a  href="active-tags-badges.html" class="link_item_node_level_3 first"><strong>RFID</strong> tags and badges</a></li>
+        <li id="mnu_331" class="item_node_level_3"><a  href="wireless-rfid-sensors.html" class="link_item_node_level_3">Wireless <strong>RFID</strong> Sensors</a></li>
+        <li id="mnu_482" class="item_node_level_3"><a  href="active-rfid-readers.html" class="link_item_node_level_3"><strong>RFID</strong> Readers</a></li>
+        <li id="mnu_483" class="item_node_level_3"><a  href="rfid-antennas.html" class="link_item_node_level_3"><strong>RFID</strong> Antennas</a></li>
+        <li id="mnu_484" class="item_node_level_3"><a  href="software-and-tools.html" class="link_item_node_level_3">Software and tools</a></li>
+        <li id="mnu_485" class="item_node_level_3 last"><a  href="accessories.html" class="link_item_node_level_3 last">Accessories</a></li>
+      </ul>
+      </li>
+    </ul>
+    </li>
+    <li id="mnu_28" class="item_node"><a  href="who-we-are.html" class="link_item_node">COMPANY</a>
+    <ul id="adm_menu2default28" class="ul_2 menu_node">
+      <li id="mnu_71" class="item_node_level_2 first"><a  href="who-we-are.html" class="link_item_node_level_2 first">about us</a></li>
+      <li id="mnu_63" class="item_node_level_2"><a  href="rfid-designer-manufacturer.html" class="link_item_node_level_2">R&D innovation</a></li>
+      <li id="mnu_383" class="item_node_level_2"><a  href="news.html" class="link_item_node_level_2">News</a>
+      <ul id="adm_menu3default383" class="ul_3 menu_node">
+        <li id="mnu_385" class="item_node_level_3 first"><a  href="press-articles.html" class="link_item_node_level_3 first">Press</a></li>
+        <li id="mnu_386" class="item_node_level_3"><a  href="events.html" class="link_item_node_level_3">Exhibitions</a></li>
+        <li id="mnu_384" class="item_node_level_3"><a  href="e-news.html" class="link_item_node_level_3">E news</a></li>
+        <li id="mnu_1146" class="item_node_level_3 last"><a  href="index.php?pagendx=1146" class="link_item_node_level_3 last">Events</a></li>
+      </ul>
+      </li>
+      <li id="mnu_75" class="item_node_level_2"><a  href="terms-and-conditions-of-sale.html" class="link_item_node_level_2">Terms and Conditions of sale</a></li>
+      <li id="mnu_480" class="item_node_level_2"><a  href="where-to-buy.html" class="link_item_node_level_2">DISTRIBUTORS PARTNERS</a></li>
+      <li id="mnu_1101" class="item_node_level_2 last"><a  href="join-our-team.html" class="link_item_node_level_2 last">Join our team</a></li>
+    </ul>
+    </li>
+    <li id="mnu_121" class="item_node"><a  href="applications.html" class="link_item_node">APPLICATIONS</a>
+    <ul id="adm_menu2default121" class="ul_2 menu_node">
+      <li id="mnu_486" class="item_node_level_2 first"><a  href="security.html" class="link_item_node_level_2 first"><strong>Security</strong></a>
+      <ul id="adm_menu3default486" class="ul_3 menu_node">
+        <li id="mnu_122" class="item_node_level_3 first"><a  href="people-safety-tunnel.html" class="link_item_node_level_3 first">Counting people in tunnels</a></li>
+        <li id="mnu_690" class="item_node_level_3"><a  href="anti-theft-marking-system.html" class="link_item_node_level_3">Anti-theft solution using motion sensors</a></li>
+        <li id="mnu_688" class="item_node_level_3"><a  href="anti-theft-equipment.html" class="link_item_node_level_3">Equipment anti-theft solution</a></li>
+        <li id="mnu_693" class="item_node_level_3"><a  href="access-control-car.html" class="link_item_node_level_3">Vehicle access control</a></li>
+        <li id="mnu_1283" class="item_node_level_3"><a  href="index.php?pagendx=1283" class="link_item_node_level_3">People access control</a></li>
+        <li id="mnu_663" class="item_node_level_3 last"><a  href="automated-access-control.html" class="link_item_node_level_3 last">Access control for industrial site workers</a></li>
+      </ul>
+      </li>
+      <li id="mnu_559" class="item_node_level_2"><a  href="telematics.html" class="link_item_node_level_2"><strong>Telematics</strong></a>
+      <ul id="adm_menu3default559" class="ul_3 menu_node">
+        <li id="mnu_655" class="item_node_level_3 first"><a  href="cold-chain-traceability.html" class="link_item_node_level_3 first">Monitoring temperature in refrigerated trucks</a></li>
+        <li id="mnu_700" class="item_node_level_3"><a  href="automatic-identification.html" class="link_item_node_level_3">Automatically identifying assets</a></li>
+        <li id="mnu_696" class="item_node_level_3 last"><a  href="monitoring-of-non-motorized-equipment-in-airports.html" class="link_item_node_level_3 last">Tracking non-motorized equipment at airports</a></li>
+      </ul>
+      </li>
+      <li id="mnu_488" class="item_node_level_2"><a  href="rtls-inventory.html" class="link_item_node_level_2"><strong>RTLS</strong> & Inventory</a>
+      <ul id="adm_menu3default488" class="ul_3 menu_node">
+        <li id="mnu_214" class="item_node_level_3 first"><a  href="automatic-inventory.html" class="link_item_node_level_3 first">Automatic inventory</a></li>
+        <li id="mnu_704" class="item_node_level_3"><a  href="containers-localization.html" class="link_item_node_level_3">Container localization at industrial sites</a></li>
+        <li id="mnu_702" class="item_node_level_3"><a  href="automatic-inventory-tools.html" class="link_item_node_level_3">Automatic tool inventory</a></li>
+        <li id="mnu_706" class="item_node_level_3"><a  href="people-indoor-location.html" class="link_item_node_level_3">Indoor people location</a></li>
+        <li id="mnu_1301" class="item_node_level_3 last"><a  href="indoor-asset-tracking.html" class="link_item_node_level_3 last">Indoor asset tracking</a></li>
+      </ul>
+      </li>
+      <li id="mnu_489" class="item_node_level_2 last"><a  href="smart-buildings-smart-cities.html" class="link_item_node_level_2 last">Smart <strong>building</strong> & Smart <strong>cities</strong></a>
+      <ul id="adm_menu3default489" class="ul_3 menu_node">
+        <li id="mnu_205" class="item_node_level_3 first"><a  href="monitoring-building.html" class="link_item_node_level_3 first">Monitoring temperature and humidity in buildings</a></li>
+        <li id="mnu_713" class="item_node_level_3"><a  href="supervision-of-industrial-equipment.html" class="link_item_node_level_3">Monitoring industrial equipment temperature</a></li>
+        <li id="mnu_717" class="item_node_level_3"><a  href="datacenters-monitoring.html" class="link_item_node_level_3">Datacenters supervisions</a></li>
+        <li id="mnu_657" class="item_node_level_3 last"><a  href="green-space-monitoring.html" class="link_item_node_level_3 last">Humidity monitoring for green spaces</a></li>
+      </ul>
+      </li>
+    </ul>
+    </li>
+    <li id="mnu_479" class="item_node"><a  href="contact-us.html" class="link_item_node">Contact</a></li>
+    <li id="mnu_1205" class="item_node"><a  href="get-a-quote.html" class="link_item_node">GET A QUOTE</a></li>
+    <li id="mnu_30" class="item_node"><a  href="index.php?pagendx=231" class="link_item_node">Support</a>
+    <ul id="adm_menu2default30" class="ul_2 menu_node">
+      <li id="mnu_231" class="item_node_level_2 first"><a  href="index.php?pagendx=231" class="link_item_node_level_2 first">Support</a></li>
+      <li id="mnu_972" class="item_node_level_2"><a  href="downloads-technical-documentation.html" class="link_item_node_level_2">Downloads</a></li>
+      <li id="mnu_979" class="item_node_level_2 last"><a  href="./index.php?pagendx=157&amp;field_21=support@elainnovation.com" class="link_item_node_level_2 last">Contact Technical Support</a></li>
+    </ul>
+    </li>
+    <li id="mnu_1124" class="item_node_selected last"><a  href="blog.html" class="link_item_node_selected last">BLOG</a></li>
+  </ul></div>
+              <div class="menu1">
+  <ul id="adm_menu1default" class="mega-menu">
+    <li id="mnu_1095" class="item_node first"><a  href="our-products.html" class="link_item_node first">PRODUCTS</a>
+    <ul id="adm_menu2default1095" class="ul_2 menu_node">
+      <li id="mnu_949" class="item_node_level_2 first"><a  href="my-beacon-list.html" class="link_item_node_level_2 first">My <span>Beacon</span></a>
+      <ul id="adm_menu3default949" class="ul_3 menu_node">
+        <li id="mnu_1115" class="item_node_level_3 first"><a  href="bluetooth-low-energy.html" class="link_item_node_level_3 first">Bluetooth Low Energy (BLE)</a></li>
+        <li id="mnu_1116" class="item_node_level_3"><a  href="wirepas-mesh.html" class="link_item_node_level_3">WIREPAS MESH</a></li>
+        <li id="mnu_1231" class="item_node_level_3"><a  href="quuppa-aoa-rtls.html" class="link_item_node_level_3">QUUPPA AOA RTLS</a></li>
+        <li id="mnu_1195" class="item_node_level_3 last"><a  href="settings-software-accessories.html" class="link_item_node_level_3 last">Settings Software & accessories</a></li>
+      </ul>
+      </li>
+      <li id="mnu_1155" class="item_node_level_2"><a  href="index.php?pagendx=1156" class="link_item_node_level_2">My LoRa</a></li>
+      <li id="mnu_mnu_21" class="item_node_level_2 last"><a  href="products.html" class="link_item_node_level_2 last">My Active RFID</a>
+      <ul id="adm_menu3defaultmnu_21" class="ul_3 menu_node">
+        <li id="mnu_481" class="item_node_level_3 first"><a  href="active-tags-badges.html" class="link_item_node_level_3 first"><strong>RFID</strong> tags and badges</a></li>
+        <li id="mnu_331" class="item_node_level_3"><a  href="wireless-rfid-sensors.html" class="link_item_node_level_3">Wireless <strong>RFID</strong> Sensors</a></li>
+        <li id="mnu_482" class="item_node_level_3"><a  href="active-rfid-readers.html" class="link_item_node_level_3"><strong>RFID</strong> Readers</a></li>
+        <li id="mnu_483" class="item_node_level_3"><a  href="rfid-antennas.html" class="link_item_node_level_3"><strong>RFID</strong> Antennas</a></li>
+        <li id="mnu_484" class="item_node_level_3"><a  href="software-and-tools.html" class="link_item_node_level_3">Software and tools</a></li>
+        <li id="mnu_485" class="item_node_level_3 last"><a  href="accessories.html" class="link_item_node_level_3 last">Accessories</a></li>
+      </ul>
+      </li>
+    </ul>
+    </li>
+    <li id="mnu_28" class="item_node"><a  href="who-we-are.html" class="link_item_node">COMPANY</a>
+    <ul id="adm_menu2default28" class="ul_2 menu_node">
+      <li id="mnu_71" class="item_node_level_2 first"><a  href="who-we-are.html" class="link_item_node_level_2 first">about us</a></li>
+      <li id="mnu_63" class="item_node_level_2"><a  href="rfid-designer-manufacturer.html" class="link_item_node_level_2">R&D innovation</a></li>
+      <li id="mnu_383" class="item_node_level_2"><a  href="news.html" class="link_item_node_level_2">News</a>
+      <ul id="adm_menu3default383" class="ul_3 menu_node">
+        <li id="mnu_385" class="item_node_level_3 first"><a  href="press-articles.html" class="link_item_node_level_3 first">Press</a></li>
+        <li id="mnu_386" class="item_node_level_3"><a  href="events.html" class="link_item_node_level_3">Exhibitions</a></li>
+        <li id="mnu_384" class="item_node_level_3"><a  href="e-news.html" class="link_item_node_level_3">E news</a></li>
+        <li id="mnu_1146" class="item_node_level_3 last"><a  href="index.php?pagendx=1146" class="link_item_node_level_3 last">Events</a></li>
+      </ul>
+      </li>
+      <li id="mnu_75" class="item_node_level_2"><a  href="terms-and-conditions-of-sale.html" class="link_item_node_level_2">Terms and Conditions of sale</a></li>
+      <li id="mnu_480" class="item_node_level_2"><a  href="where-to-buy.html" class="link_item_node_level_2">DISTRIBUTORS PARTNERS</a></li>
+      <li id="mnu_1101" class="item_node_level_2 last"><a  href="join-our-team.html" class="link_item_node_level_2 last">Join our team</a></li>
+    </ul>
+    </li>
+    <li id="mnu_121" class="item_node"><a  href="applications.html" class="link_item_node">APPLICATIONS</a>
+    <ul id="adm_menu2default121" class="ul_2 menu_node">
+      <li id="mnu_486" class="item_node_level_2 first"><a  href="security.html" class="link_item_node_level_2 first"><strong>Security</strong></a>
+      <ul id="adm_menu3default486" class="ul_3 menu_node">
+        <li id="mnu_122" class="item_node_level_3 first"><a  href="people-safety-tunnel.html" class="link_item_node_level_3 first">Counting people in tunnels</a></li>
+        <li id="mnu_690" class="item_node_level_3"><a  href="anti-theft-marking-system.html" class="link_item_node_level_3">Anti-theft solution using motion sensors</a></li>
+        <li id="mnu_688" class="item_node_level_3"><a  href="anti-theft-equipment.html" class="link_item_node_level_3">Equipment anti-theft solution</a></li>
+        <li id="mnu_1283" class="item_node_level_3"><a  href="index.php?pagendx=1283" class="link_item_node_level_3">People access control</a></li>
+        <li id="mnu_693" class="item_node_level_3"><a  href="access-control-car.html" class="link_item_node_level_3">Vehicle access control</a></li>
+        <li id="mnu_663" class="item_node_level_3 last"><a  href="automated-access-control.html" class="link_item_node_level_3 last">Access control for industrial site workers</a></li>
+      </ul>
+      </li>
+      <li id="mnu_559" class="item_node_level_2"><a  href="telematics.html" class="link_item_node_level_2"><strong>Telematics</strong></a>
+      <ul id="adm_menu3default559" class="ul_3 menu_node">
+        <li id="mnu_655" class="item_node_level_3 first"><a  href="cold-chain-traceability.html" class="link_item_node_level_3 first">Monitoring temperature in refrigerated trucks</a></li>
+        <li id="mnu_700" class="item_node_level_3"><a  href="automatic-identification.html" class="link_item_node_level_3">Automatically identifying assets</a></li>
+        <li id="mnu_696" class="item_node_level_3 last"><a  href="monitoring-of-non-motorized-equipment-in-airports.html" class="link_item_node_level_3 last">Tracking non-motorized equipment at airports</a></li>
+      </ul>
+      </li>
+      <li id="mnu_488" class="item_node_level_2"><a  href="rtls-inventory.html" class="link_item_node_level_2"><strong>RTLS</strong> & Inventory</a>
+      <ul id="adm_menu3default488" class="ul_3 menu_node">
+        <li id="mnu_214" class="item_node_level_3 first"><a  href="automatic-inventory.html" class="link_item_node_level_3 first">Automatic inventory</a></li>
+        <li id="mnu_704" class="item_node_level_3"><a  href="containers-localization.html" class="link_item_node_level_3">Container localization at industrial sites</a></li>
+        <li id="mnu_702" class="item_node_level_3"><a  href="automatic-inventory-tools.html" class="link_item_node_level_3">Automatic tool inventory</a></li>
+        <li id="mnu_1301" class="item_node_level_3"><a  href="indoor-asset-tracking.html" class="link_item_node_level_3">Indoor asset tracking</a></li>
+        <li id="mnu_706" class="item_node_level_3 last"><a  href="people-indoor-location.html" class="link_item_node_level_3 last">Indoor people location</a></li>
+      </ul>
+      </li>
+      <li id="mnu_489" class="item_node_level_2 last"><a  href="smart-buildings-smart-cities.html" class="link_item_node_level_2 last">Smart <strong>building</strong> & Smart <strong>cities</strong></a>
+      <ul id="adm_menu3default489" class="ul_3 menu_node">
+        <li id="mnu_205" class="item_node_level_3 first"><a  href="monitoring-building.html" class="link_item_node_level_3 first">Monitoring temperature and humidity in buildings</a></li>
+        <li id="mnu_713" class="item_node_level_3"><a  href="supervision-of-industrial-equipment.html" class="link_item_node_level_3">Monitoring industrial equipment temperature</a></li>
+        <li id="mnu_717" class="item_node_level_3"><a  href="datacenters-monitoring.html" class="link_item_node_level_3">Datacenters supervisions</a></li>
+        <li id="mnu_657" class="item_node_level_3 last"><a  href="green-space-monitoring.html" class="link_item_node_level_3 last">Humidity monitoring for green spaces</a></li>
+      </ul>
+      </li>
+    </ul>
+    </li>
+    <li id="mnu_479" class="item_node"><a  href="contact-us.html" class="link_item_node">Contact</a></li>
+    <li id="mnu_1205" class="item_node"><a  href="get-a-quote.html" class="link_item_node">GET A QUOTE</a></li>
+    <li id="mnu_30" class="item_node"><a  href="index.php?pagendx=231" class="link_item_node">Support</a>
+    <ul id="adm_menu2default30" class="ul_2 menu_node">
+      <li id="mnu_231" class="item_node_level_2 first"><a  href="index.php?pagendx=231" class="link_item_node_level_2 first">Support</a></li>
+      <li id="mnu_972" class="item_node_level_2"><a  href="downloads-technical-documentation.html" class="link_item_node_level_2">Downloads</a></li>
+      <li id="mnu_979" class="item_node_level_2 last"><a  href="./index.php?pagendx=157&amp;field_21=support@elainnovation.com" class="link_item_node_level_2 last">Contact Technical Support</a></li>
+    </ul>
+    </li>
+    <li id="mnu_1124" class="item_node_selected last"><a  href="blog.html" class="link_item_node_selected last">BLOG</a></li>
+  </ul></div>
+              <div class="menu_alt">
+  <ul id="adm_menu11079" class="mega-menu">
+    <li id="mnu_1127" class="item_node first"><a  href="https://elainnovation.com/blog.html" class="link_item_node first"><i class="fa fa-fw fa-bookmark"></i> Blog</a>
+    <ul id="adm_menu210791127" class="ul_2 menu_node">
+      <li id="mnu_1129" class="item_node_level_2 first"><a  href="https://elainnovation.com/index.php?pagendx=1125&amp;cat=109" class="link_item_node_level_2 first">Techno</a></li>
+      <li id="mnu_1130" class="item_node_level_2"><a  href="https://elainnovation.com/index.php?pagendx=1125&amp;cat=108" class="link_item_node_level_2">The LAB</a></li>
+      <li id="mnu_1131" class="item_node_level_2 last"><a  href="https://elainnovation.com/index.php?pagendx=1125&amp;cat=110" class="link_item_node_level_2 last">Trend</a></li>
+    </ul>
+    </li>
+    <li id="mnu_1080" class="item_node"><a  href="index.php?pagendx=231" class="link_item_node"><i class="fa fa-fw fa-cloud-download"></i> Support</a>
+    <ul id="adm_menu210791080" class="ul_2 menu_node">
+      <li id="mnu_1081" class="item_node_level_2 first"><a  href="index.php?pagendx=231" class="link_item_node_level_2 first">Support</a></li>
+      <li id="mnu_1082" class="item_node_level_2"><a  href="downloads-technical-documentation.html" class="link_item_node_level_2">Downloads</a></li>
+      <li id="mnu_1083" class="item_node_level_2 last"><a  href="./index.php?pagendx=157&amp;field_21=support@elainnovation.com" class="link_item_node_level_2 last">Contact Technical Support</a></li>
+    </ul>
+    </li>
+    <li id="mnu_1084" class="item_node last"><a  href="contact-us.html" class="link_item_node last"><i class="fa fa-fw fa-envelope"></i> Contact</a></li>
+  </ul>
+                <a class="iconVersion" href="http://www.ela.fr/"><img alt="French" src="Local/ela/images/header/drapeau_france.png" style="width: 20px; height: auto;"></a>
+              </div>
+              <a class="iconVersion mobile" style="display: none;" href="http://www.ela.fr/"><img alt="French" src="Local/ela/images/header/drapeau_france.png" style="width: 20px; height: auto;"></a>
+
+
+             
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- File d ariane -->
+<div class="row">
+  <div class="large-12 columns">
+    <div id="nav_path" class="no_img">
+      
+  <ul itemscope itemtype="http://schema.org/BreadcrumbList" id="path1default" class="menu_node">
+    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="item_node_selected" ><a itemprop="item" class="link_" href="."><span itemprop="name">Home</span></a><meta itemprop="position" content="1" />
+    </li>
+    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="item_node_selected" ><a itemprop="item" href="blog.html" class="link_ariane"><span itemprop="name">BLOG</span></a><meta itemprop="position" content="2" />
+    </li>
+    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="item_node_selected"  id="last_li"><a itemprop="item" class="link_" href="/active-rfid-vs-passive-rfid-which-differences.html"><span itemprop="name">Active RFID vs. Passive RFID: which differences?</span></a><meta itemprop="position" content="3" />
+    </li>
+  </ul>
+    </div>
+  </div>
+</div>
+<ul class="reseaux_sociaux" style="position: fixed;bottom: 0;right: 10px;">
+ <li class="lien_bandeau_haut"><a target="_blank" class="iconFB" href="https://www.facebook.com/pages/ELA-Innovation/489302644542142?fref=ts">Facebook</a></li>
+ <li class="lien_bandeau_haut RS"><a target="_blank" class="iconTw" href="https://twitter.com/ElaInnovation?lang=fr">Twitter</a></li>
+ <li class="lien_bandeau_haut RS"><a target="_blank" class="iconLI" href="https://www.linkedin.com/company/ela-innovation">LinkedIN</a></li>
+ <li class="lien_bandeau_haut RS"><a target="_blank" class="iconUT" href="https://www.youtube.com/channel/UCMwtjZ0s96zp8wfl8x7yANw">Youtube</a></li>
+
+</ul>
+
+<!-- *** Main ************************************************************** -->
+
+<div class="row">
+  <div class="large-12 medium-12 small-12 columns">
+        <h1 class="txt_title page_detail_blog">Active RFID vs. Passive RFID: which differences? </h1>
+  </div>
+</div>
+<section>
+  <div class="row">
+    <div class="columns large-8 medium-12 small-12">
+      
+          
+
+<div class="row">
+<div id="txt_para_1140" class="large-12 medium-12 small-12 columns">
+	<!--<h1 id="txt_title_1140" class="title_liste_blog">
+		Active RFID vs. Passive RFID: which differences?
+	</h1>-->
+  <div class="actu_detail">
+    <div id="txt_resume_1140">
+    <p class="date_blog"><span style="color: #999999;">Published on</span> 06 avr. 2019 <span style="color: #999999;">In:</span> <!-- --> <a  href="index.php?pagendx=1125&amp;cat=109" class="txt_cat_name cat_109">Techno</a> </p></div>
+    <div class="info_formation">
+      <ul>
+        <li class="" id="tps_lecture"><span class="info_label">Reading time</span><span id="" class="info_txt">08 min.</span></li>
+        <li class="last" id="niveau_lecture"><span class="info_label">Level</span><span class="info_txt" id="">Beginner</span></li>
+      </ul>
+    </div>
+    <div class="resume_detail_blog"><p>You might have heard of <strong>RFID (Radio Frequency Identification)</strong>, but do you really know what it is about, <strong>and which kinds of RFID are being used?</strong> Radio Frequency Identification is useful in many different sectors and applies to various processes such as inventory management, access control or industrial equipment automated identification.</p>
+</div>
+    <div class="img_blog">
+     	<img class="" alt="Active RFID vs. Passive RFID: which differences?" src="Local/gus/files/1335/banniere-article-rfid.jpg"/>
+    </div>
+    <div class="txt_detail_blog">
+<div class="gsi-row">
+<div class="gsi-col gsi-12" data-size="12"><div><p style="text-align:justify">Radio Frequency Identification (RFID) is frequently used on a daily basis, without us even being aware of it, in many various fields of activity. It allows data transmission, storage and remote data recovery by means of radio waves. RFID is often used for product identification and automatic information gathering on specific items, with no need for any physical connection, unlike other technologies such as gencode for example. In most cases, this might be applied in two different ways, called active RFID or passive RFID.</p>
+ <p style="text-align:justify"> </p><h2 class="txt_title" style="text-align:justify"><strong>RFID basics</strong></h2><p> </p><p style="text-align:justify"><strong>RFID</strong> basic devices consist of several components. Among them, the <strong>tag</strong>, also called "<strong>radio tag</strong>", includes an <strong>electronic chip</strong> for data identification and storage, an <strong>antenna</strong> for communication purposes, as well as a <strong>reader</strong> or <strong>interviewer</strong> for wave transmission and reception. A computer and software are also required for data backup and analysis. Depending on the radio tag that is being used, you may need a battery or no battery at all (passive tags), a battery may be required only for wave transmission (semi-passive tags) or to power the tag and wave transmission (active tags).</p>
+ <p style="text-align:justify"> </p><h3 style="text-align:justify"><strong>RFID tags</strong></h3><p style="text-align:justify">The <strong>RFID tag</strong> is a <strong>critical electronic identification device</strong>. It usually consists of two main components: an <strong>antenna</strong> receiving the waves and an electronic circuit designed for information processing and storage. In other words, it contains an identifier and associated data on a chip, which is itself connected to the antenna. The tag transmits data to a reader by means of radio waves. Very popular in the RFID industry, tags are very useful for <strong>meeting traceability requirements,</strong> for example, since they do not necessarily need to be visible in order to be detected and, thus, to be read.</p>
+ <p style="text-align:justify"> </p><h3 style="text-align:justify"><strong>Reader</strong></h3><p style="text-align:justify">The <strong>reader</strong> is an electronic device used for<strong> transmission and reception of electromagnetic waves</strong>. It is able to detect and recognize the tag credentials through the ID provided by the chip manufacturer. It may also use a decoder in order to <strong>read the information</strong> carried by the incident wave.</p>
+ <p style="text-align:justify"> </p><h3 style="text-align:justify"><strong>RFID antenna</strong></h3><p style="text-align:justify">The <strong>RFID antenna</strong> is designed for <strong>collecting and broadcasting electromagnetic waves</strong>. The transmission frequency depends on the antenna type, its wavelength and the selected chip frequency. In accordance with the specific application, the antenna should be as low-cost, non-invasive and as eco-friendly as possible. In order to optimize energy flow, the antenna impedance must be equivalent to the electronic chip<strong> impedance</strong> provided in the tag. In most cases, this impedance value is of <strong>50?.</strong></p>
+ <p style="text-align:justify"> </p><h3 style="text-align:justify"><strong>Computer</strong></h3><p style="text-align:justify">The computer and software allow to save the information collected by the reader. In some cases, they also may trigger the reader.</p><p> </p><p style="text-align:center"><img alt="" src="./Local/ela/files/1336/bigschema_fonctionnement_RFID_EN.png" style="height:247px; width:512px" /></p><p style="text-align:center"><em>RFID basic functionalities</em></p><p style="text-align:center"> </p><h2 class="txt_title"><strong>Active RFID</strong></h2><p> </p><p style="text-align:justify">The first concept is about <strong>active RFID</strong>. In this case, an <strong>on-board power source</strong> is used to for operating tags. It may be a battery or a cell, for example, enabling both tag performance and data transmission.</p>
+ <p style="text-align:justify"><strong>Active RFID</strong> applies to several industries, such as <strong>construction, public works and security, as well as home automation</strong>. Active tags are mainly used for monitoring physical parameters (such as temperature, humidity, movement). This applies in particular to <a href="https://elainnovation.com/cold-chain-traceability.html" target="_blank">cold chain control </a>in refrigerated trucks. They also make it possible <a href="https://elainnovation.com/people-safety-tunnel.html" target="_blank">to identify and track people</a> for on-site safety. Lastly, they may also be used for access control or<a href="https://elainnovation.com/automatic-inventory.html" target="_blank"> automatic goods identification</a>.</p>
+ </div></div></div>
+<div class="gsi-row">
+<div class="gsi-col gsi-6" data-size="6"><div><h3><strong>STRENGHTS</strong></h3><ul><li><strong>Main strength: high distance coverage</strong></li><li>Increased information storage capacity compared to passive tags</li><li>Tags providing various additional functions</li><li>Fast data transfer rate</li><li>Possibility to read a large number of labels simultaneously</li></ul></div></div>
+<div class="gsi-col gsi-6" data-size="6"><div><h3><strong>WEAKNESSES</strong></h3><ul><li><strong>Tags are costly and have a limited lifespan</strong></li><li>These tags are rather intrusive, given their medium size, which makes them visible</li></ul></div></div></div>
+<div class="gsi-row">
+<div class="gsi-col gsi-12" data-size="12"><div><h3><strong>coverage / range</strong></h3><p style="text-align:justify">Active tags have a very long coverage range, <strong>exceeding 500 m</strong>. Other technologies (further information in other articles of this blog) make it possible to extend this distance to up to one kilometer.</p><p style="text-align:justify"> </p><h2 class="txt_title" style="text-align:justify"><strong>Passive RFID</strong></h2><p style="text-align:justify"> </p><p style="text-align:justify">The second case concerns <strong>passive RFID</strong>. Unlike active tags, passive tags <strong>do not include any embedded power source.</strong> As an alternative, the reader wave is used as a power source for the chip, in order to modulate the signal and to broadcast the signal back to the reader by back scattering.</p>
+ <p style="text-align:justify"> </p></div></div></div>
+<div class="gsi-row">
+<div class="gsi-col gsi-6" data-size="6"><div><h3><strong>STRENGHTS</strong></h3><ul><li>It is low cost.</li><li>It is time saving.</li><li>It uses flexible materials. In fact, tags may sometimes be made of paper or textile, making them more environmentally friendly (provided that the metal ink used in the antenna also is eco-friendly).</li><li>It includes significant highlights such as their small size, lightweight and long lifespan.</li></ul></div></div>
+<div class="gsi-col gsi-6" data-size="6"><div><h3><strong>STRENGHTS</strong></h3><ul><li>This device may read only very few labels simultaneously.</li><li>Their decreased range and reliability - compared to those provided by active tags - make them less reliable and more fragile.</li></ul></div></div></div>
+<div class="gsi-row">
+<div class="gsi-col gsi-12" data-size="12"><div><h3><strong>coverage / range</strong></h3><p>Passive tags have a 3-level range.</p><ul><li>We are talking about short distance with a Low Frequency, when referring to a contact <strong>located only a few centimeters away.  </strong></li><li>The average distance represents a range held between a <strong>few centimeters up to 1m</strong>. This is known as High Frequency. For instance, NFC has a reading distance of 10 cm in most cases.</li><li>Lastly, the maximum distance extends <strong>up to 15m </strong>and relies on the Ultra High Frequency technology.</li></ul><p> </p><h2 class="txt_title"><strong>To go even further...</strong></h2><p> </p><p style="text-align:justify">You may also find a third type of RFID, called <strong>semi-passive</strong>. Although less famous and therefore less used, this device incorporates some active RFID features (such as a battery placed on the tag, to provide power only at this time) and passive RFID features (for transmission purposes). These tags have a longer lifespan than an active tag and are cheaper. However, they remain more expensive than the passive ones.</p>
+ </div></div></div></div>
+  </div>
+  <hr/>
+  	<div class="post_author">
+	    <div class="">
+	       
+<ul class="author_list with_fulldesc">
+<li>
+<div class="author_head">
+<img src="Local/gus/annu/users/10/iconFabien.BIBI.JPG" alt="BIBI Fabien">
+<div class="author_fullname">BIBI Fabien</div>
+<div class="author_job">Electronic engineer</div>
+</div>
+<div class="author_desc">
+An electronics engineer specializing in radiofrequency at ELA Innovation in Montpellier, Fabien studied at the University of Montpellier where he received his Master's degree in Sensor and Associated Systems (CSA) in 2012. He then completed his Ph.D. the Institute of Electronics and Systems (IES) in collaboration with the National Institute of Agronomic Research (INRA) on the study of the dielectric properties of polymers and their use as biosensors on passive RFID tags at ultra high frequency. He received his doctoral degree in 2015 from the University of Montpellier as well. He is now responsible for active RFID tag design in UHF and SHF, and is particularly interested in BLE and LoRa technologies.
+</div>
+</li>
+</ul>
+	    </div>
+	</div>
+</div>
+</div>
+<br style="clear: both;"/>
+    
+
+
+
+      <br style="clear: both;"/>
+      <hr/>
+      <br style="clear: both;"/>
+
+      <div class="articles_similaires">
+        <h2>Similar items</h2>
+        
+<div id="txt_para_1323" class="box_art_similaire large-3 medium-6 small-12 columns">
+  <div class="">
+    <a href="https://ela.fr/calibration-industrial-temperature-sensors-regulation.html" class="link_art_similaire">
+      <div class="img_art_similaire" id="img_resume_1323" >
+        <img class="" alt="Calibration of industrial temperature sensors, what does the regulation say?" src="Local/gus/files/1622/bigimage-banniere-article-etalonnage.png"/>
+      </div>
+    </a>
+    <div class="resume_art_similaire">
+      <h3 id="txt_title_1323" class="title_art_similaire">
+        <a class="link_title_art_similaire" href="https://ela.fr/calibration-industrial-temperature-sensors-regulation.html">Calibration of industrial temperature sensors, what does the regulation say?</a>
+      </h3>
+    </div>
+  </div>
+</div>
+<div id="txt_para_1282" class="box_art_similaire large-3 medium-6 small-12 columns">
+  <div class="">
+    <a href="https://ela.fr/what-is-a-beacon-what-are-its-use-in-the-industry-.html" class="link_art_similaire">
+      <div class="img_art_similaire" id="img_resume_1282" >
+        <img class="" alt="What is a beacon? What are its use in the industry?" src="Local/gus/files/1490/bigbanniere-article-beacon.png"/>
+      </div>
+    </a>
+    <div class="resume_art_similaire">
+      <h3 id="txt_title_1282" class="title_art_similaire">
+        <a class="link_title_art_similaire" href="https://ela.fr/what-is-a-beacon-what-are-its-use-in-the-industry-.html">What is a beacon? What are its use in the industry?</a>
+      </h3>
+    </div>
+  </div>
+</div>
+<div id="txt_para_1181" class="box_art_similaire large-3 medium-6 small-12 columns">
+  <div class="">
+    <a href="https://ela.fr/lorawan-private-network-vs-public-network-which-one-should-i-choose.html" class="link_art_similaire">
+      <div class="img_art_similaire" id="img_resume_1181" >
+        <img class="" alt="LoRaWAN, private network Vs public network: which one should I choose?" src="Local/gus/files/1404/bigbanniere-article-lora.png"/>
+      </div>
+    </a>
+    <div class="resume_art_similaire">
+      <h3 id="txt_title_1181" class="title_art_similaire">
+        <a class="link_title_art_similaire" href="https://ela.fr/lorawan-private-network-vs-public-network-which-one-should-i-choose.html">LoRaWAN, private network Vs public network: which one should I choose?</a>
+      </h3>
+    </div>
+  </div>
+</div>
+<div id="txt_para_1179" class="box_art_similaire large-3 medium-6 small-12 columns">
+  <div class="">
+    <a href="https://ela.fr/indoor-localization-which-technology-for-each-use.html" class="link_art_similaire">
+      <div class="img_art_similaire" id="img_resume_1179" >
+        <img class="" alt="Indoor localization: which technology for each use?" src="Local/gus/files/1392/bigbanniere-article-loc-indoor.png"/>
+      </div>
+    </a>
+    <div class="resume_art_similaire">
+      <h3 id="txt_title_1179" class="title_art_similaire">
+        <a class="link_title_art_similaire" href="https://ela.fr/indoor-localization-which-technology-for-each-use.html">Indoor localization: which technology for each use?</a>
+      </h3>
+    </div>
+  </div>
+</div>
+      <br style="clear: both;"/>
+      </div>
+      <br style="clear: both;"/>
+      <hr/>
+      <br style="clear: both;"/>
+    </div>
+    <div class="large-4 medium-12 small-12 columns">
+      <div class="sidebar_border">
+        <div class="row">
+          <div class="img_detail_actu large-12 medium-12 small-12 columns" id="img_resume_{@field n_id}" >
+            <a class="link_savoirplus_blog page_detail" href="https://elainnovation.com/blog.html">< Back to the list </a>
+          </div>
+        </div>
+        <br/>
+
+        
+<div id="boxapp_1135" class="txt_include">
+<h2 id="mini_1135" class="mini_app_title">Categories</h2><ul class="cat_tree_menu"><ul><li><a  class="mnu_cat_111"  href="index.php?pagendx=1125&cat=111" data-id="111" data-count="4">LoRa</a></li><li><a  class="mnu_cat_112"  href="index.php?pagendx=1125&cat=112" data-id="112" data-count="9">Events</a></li><li><a  class="mnu_cat_113"  href="index.php?pagendx=1125&cat=113" data-id="113" data-count="7">Quuppa</a></li><li><a  class="mnu_cat_114"  href="index.php?pagendx=1125&cat=114" data-id="114" data-count="11">Setting software</a></li><li><a  class="mnu_cat_109"  href="index.php?pagendx=1125&cat=109" data-id="109" data-count="7">Techno</a></li><li><a  class="mnu_cat_108"  href="index.php?pagendx=1125&cat=108" data-id="108" data-count="3">The LAB</a></li><li><a  class="mnu_cat_110"  href="index.php?pagendx=1125&cat=110" data-id="110" data-count="10">Trend</a></li></ul></ul></div>
+        
+<div id="boxapp_1132" class="txt_include">
+<h2 id="mini_1132" class="mini_app_title">Share this content</h2>
+<div id="1132">
+<div id="social_list"><ul class="bookmarks_list app-bookmarks">
+<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Felainnovation.com%2Factive-rfid-vs-passive-rfid-which-differences.html%3Futm_source%3Dfacebook%26utm_medium%3Dsocial%26utm_campaign%3Dela" target="blank" rel="nofollow"><img src="Local/bookmarks/16/facebook.png" alt="facebook" border="0" class="facebook"/></a></li>
+<li><a href="https://twitter.com/home?status=http%3A%2F%2Felainnovation.com%2Factive-rfid-vs-passive-rfid-which-differences.html%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dela" target="blank" rel="nofollow"><img src="Local/bookmarks/16/twitter.png" alt="twitter" border="0" class="twitter"/></a></li>
+<li><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Felainnovation.com%2Factive-rfid-vs-passive-rfid-which-differences.html%3Futm_source%3Dlinkedin%26utm_medium%3Dsocial%26utm_campaign%3Dela&amp;title=detail%20blog%20-%20ELA" target="blank" rel="nofollow"><img src="Local/bookmarks/16/linkedin.png" alt="linkedin" border="0" class="linkedin"/></a></li>
+<li class="link_friend"><a onclick="gs_element_show('social_share');gs_element_hide('social_list');"><img src="Local/bookmarks/16/mail.png" alt="EMail"/>&nbsp;<![CDATA[Send to a friend]]></a></li></ul><br style="clear:both;"/></div>
+<div id="social_share" style="display:none;">
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<form method="post" id="form_3d41d8cd98f00b204e9800998ecf8427e" action="javascript:ajaxGSiteForm ('index.php?pagendx=1126&project=ela&refresh=1132&verify=true', '', '1132', 'form_3d41d8cd98f00b204e9800998ecf8427e');">
+  <div class="form_share"><![CDATA[E-mail adress]]></div><label for="social_mail_addr" style="display:none;">EMail</label><input id="social_mail_addr" placeholder="E-mail adress" type="text" name="mail_adress" /><div><![CDATA[Pour utiliser reCAPTCHA vous devez r&eacute;cup&eacute;rer votre jeu de cl&eacute;s sur :]]> <a href="https://www.google.com/recaptcha/admin/create">https://www.google.com/recaptcha/admin/create</a></div>
+  <br/><input type="button" value="Annuler" onClick="gs_element_hide('social_share');gs_element_show('social_list');return false;"/>
+  <input type="submit" style="float:right" value="Envoyer"/>
+</form></div>
+</div></div>
+        <br style="clear: both;"/>
+        
+<div id="boxapp_1133" class="txt_include">
+<h2 id="mini_1133" class="mini_app_title">Last posts</h2><div class="list_blog_recent">
+
+
+<a class="link_title_liste_blog_recent" href="secure-cold-chain-traceability-during-transportation.html">
+    <div class="ligne_recent">
+		  <h3 id="txt_title_1328" class="title_liste_blog_recent">
+		    How to secure cold chain traceability during transportation?
+		  </h3>
+      <p class="date_blog_list_recent"><span style="color: #999999;">Published on</span> 16 févr. 2021 <span style="color: #999999;">In:</span> Trend </p>
+    </div>
+	</a>
+
+<!-- ADS_FEED -->
+
+<a class="link_title_liste_blog_recent" href="calibration-industrial-temperature-sensors-regulation.html">
+    <div class="ligne_recent">
+		  <h3 id="txt_title_1323" class="title_liste_blog_recent">
+		    Calibration of industrial temperature sensors, what does the regulation say?
+		  </h3>
+      <p class="date_blog_list_recent"><span style="color: #999999;">Published on</span> 16 déc. 2020 <span style="color: #999999;">In:</span> Techno </p>
+    </div>
+	</a>
+
+<!-- ADS_FEED -->
+
+<a class="link_title_liste_blog_recent" href="geo-tracking-security-economic-optimization-aviation-industry-airport-facilities.html">
+    <div class="ligne_recent">
+		  <h3 id="txt_title_1321" class="title_liste_blog_recent">
+		    How does geo-tracking strengthen security and bring economic optimization in the aviation industry and on airport facilities? 
+		  </h3>
+      <p class="date_blog_list_recent"><span style="color: #999999;">Published on</span> 12 oct. 2020 <span style="color: #999999;">In:</span> Trend </p>
+    </div>
+	</a>
+
+<!-- ADS_FEED -->
+
+<a class="link_title_liste_blog_recent" href="mesh-technology-meet-challenges-smart-building.html">
+    <div class="ligne_recent">
+		  <h3 id="txt_title_1315" class="title_liste_blog_recent">
+		    How does Mesh technology meet the challenges of smart building?
+		  </h3>
+      <p class="date_blog_list_recent"><span style="color: #999999;">Published on</span> 24 juin 2020 <span style="color: #999999;">In:</span> Trend </p>
+    </div>
+	</a>
+
+<!-- ADS_FEED -->
+
+<a class="link_title_liste_blog_recent" href="iot-cybersecurity-best-practices-and-future-development.html">
+    <div class="ligne_recent">
+		  <h3 id="txt_title_1297" class="title_liste_blog_recent">
+		    IoT Cybersecurity: Best Practices and Future Development
+		  </h3>
+      <p class="date_blog_list_recent"><span style="color: #999999;">Published on</span> 14 mai 2020 <span style="color: #999999;">In:</span> Trend </p>
+    </div>
+	</a>
+
+<!-- ADS_FEED -->
+</div>
+</div>
+
+
+<!-- FACEBOOK PLUGIN 
+       <div class="fb-page" data-href="https://www.facebook.com/ELA-Innovation-489302644542142/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ELA-Innovation-489302644542142/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ELA-Innovation-489302644542142/">ELA Innovation</a></blockquote></div>
+END FACEBOOK PLUGIN -->
+
+    <!-- TWITTER PLUGIN -->
+<a class="twitter-timeline" data-height="500" data-theme="light" data-link-color="#3a688d" href="https://twitter.com/ElaInnovation?ref_src=twsrc%5Etfw">Tweets by ElaInnovation</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+    <!-- END TWITTER PLUGIN -->
+
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<div class="bg_footer">
+  <div class="row">
+    <div class="large-5 medium-5 small-12 columns">
+      <div class="columns large-5 medium-12 small-12">
+      
+<div id="boxapp_442" class="txt_include">
+<div class="txt_paragraph  first last" id="txt_para_443">
+  <div class="txt_text" id="txt_desc_443">
+    <!-- ADS_FEED -->
+<div class="gsi-row">
+<div class="gsi-col gsi-12" data-size="12"><div></div><div><img src="Local/ela/files/794/ela_innovation_NB.png"></div></div></div>
+  </div>
+</div></div>
+      </div>
+      <div class="columns large-7 medium-12 small-12">
+      
+<div id="boxapp_477" class="txt_include">
+<div class="txt_paragraph  first last" id="txt_para_478">
+  <div class="txt_text" id="txt_desc_478">
+    <!-- ADS_FEED -->
+<div class="gsi-row">
+<div class="gsi-col gsi-12" data-size="12"><div><p>ELA Innovation S.A<br />297, rue Maurice Béjart<br />34080 Montpellier - France<br /><br />Tel. +33 (0) 4 67 47 60 60<br />Fax +33 (0) 4 67 27 59 51</p>
+ <!-- ADS_FEED --></div><div><p><a href="https://www.facebook.com/pages/ELA-Innovation/489302644542142" target="_blank"><img alt="" src="./Local/ela/files/931/smallfacebook-1.png" style="height:48px; width:48px" /></a> <a href="https://twitter.com/ElaInnovation" target="_blank"><img alt="" src="./Local/ela/files/930/icontwitter-1.png" style="height:48px; width:48px" /></a> <a href="https://www.linkedin.com/company/ela-innovation" target="_blank"><img alt="" src="./Local/ela/files/1168/iconlinkedin-1.png" style="height:48px; width:48px" /></a> <a href="https://www.youtube.com/channel/UCMwtjZ0s96zp8wfl8x7yANw" target="_blank"><img alt="" src="./Local/ela/files/929/iconyoutube-1.png" style="height:48px; width:48px" /></a> <a href="./subscribe-to-newsletters.html" target="_blank"><img alt="" src="./Local/ela/files/932/iconicon_news.png" style="height:45px; width:45px" /></a></p></div></div></div>
+  </div>
+</div></div>
+      </div>
+
+    </div>
+    <div class="large-7 medium-7 small-12 columns">
+      <div class="menu2">
+<div id="boxapp_444" class="txt_include">
+<div class="txt_paragraph  first last" id="txt_para_445">
+  <div class="txt_text" id="txt_desc_445">
+    <!-- ADS_FEED -->
+<div class="gsi-row">
+<div class="gsi-col gsi-12" data-size="12"><div><ul><li><a href="./">Home</a></li><li><a href="./who-we-are.html">Company</a></li><li><a href="./contact-us.html">Contact us</a></li><li><a href="./sitemap.html">Site map</a></li><li><a href="./terms-and-conditions-of-sale.html">Legal</a></li><li><a href="./privacy-policies.html">Privacy Policy</a></li><li><a href="http://www.ela.fr" target="_blank">French website<br /><img alt="" src="./Local/ela/files/1153/smalldrapeau_france.png" style="border-style:solid; border-width:0px; height:20px; margin-left:50px; margin-right:50px; width:20px" /></a></li></ul></div></div></div>
+  </div>
+</div></div></div>
+    </div>
+    <div class="large-12 columns">
+
+<div class="idalizes">Site par <a href="http://www.id-alizes.fr" target="_blank" class="idalizes">ID-Aliz&eacute;s</a></div>
+    </div>
+  </div>
+</div>
+<!--<div class="volet_newsletter">
+  <a href="https://ela.fr/s-inscrire-a-la-newsletter.html" class="btn_volet_newsletter" id="news">Newsletter</a>
+    <div class="bloc_info_newsletter">
+      <a href="https://elainnovation.com/subscribe-to-newsletters.html" class="btn_volet_newsletter"><span class="title_volet_newsletter">Subscribe to our newsletter</span></a>
+    </div>
+</div>-->
+<div class="volet_contact">
+  <a href="https://elainnovation.com/contact-us.html" class="btn_volet_contact" id="tel">Phone</a>
+    <div class="bloc_info">
+      <span class="title_volet_contact">Contact us</span>
+      <!--<span class="numero"><a class="tel" href="tel:+330467476060">+33 (0) 4 67 47 60 60</a></span>-->
+      <span class="numero"><a class="tel" href="tel:+17862536709"><strong>USA</strong> <br/>+1 786 253 6709</a></span>
+      <span class="numero"><a class="tel" href="tel:+14163467023"><strong>Canada</strong> <br/>+1 416 346 7023</a></span>
+      <span class="numero"><a class="tel" href="tel:+330769369444"><strong>South Europe - Middle East</strong> <br/>+33 (0)7 69 36 94 44</a></span>
+      <span class="numero"><a class="tel" href="tel:+330671159132"><strong>North & West Europe</strong> <br/>+33 (0)7 67 70 67 31</a></span>
+      <!--<hr>-->
+      <!--<span class="title_volet_contact"> Sales department</span>
+       <span class="numero mail"><a href="mailto:service.commercial@ela.fr">service.commercial@ela.fr</a></span>
+      <a href="https://elainnovation.com/contact-us.html" class="btn_volet_contact btn_rond">Contact</a>-->
+    </div>
+</div>
+ <ul class="reseaux_sociaux">
+   <li class="lien_bandeau_haut"><a target="_blank" class="iconFB" href="https://www.facebook.com/pages/ELA-Innovation/489302644542142?fref=ts">Facebook</a></li>
+   <li class="lien_bandeau_haut RS"><a target="_blank" class="iconTw" href="https://twitter.com/ElaInnovation?lang=fr">Twitter</a></li>
+   <li class="lien_bandeau_haut RS"><a target="_blank" class="iconLI" href="https://www.linkedin.com/company/ela-innovation">LinkedIN</a></li>
+   <li class="lien_bandeau_haut RS"><a target="_blank" class="iconUT" href="https://www.youtube.com/channel/UCMwtjZ0s96zp8wfl8x7yANw">Youtube</a></li>
+
+ </ul>
+
+  <script>
+
+    /* Resize for background */
+
+    function resizeBorder () {
+
+      var maxWidth = 1340;
+      var winWidth = jQuery(window).width();
+      var diff = (winWidth-maxWidth);
+      if(diff<0) diff = 0;
+      diff = Math.round(diff/2);
+
+      jQuery('#add-border-style').remove();
+      jQuery('body').append(
+        '<div id="add-border-style">'
+        +'<style>'
+        +'.bandeau_gris:after, .bandeau_gris_after:after, .bandeau_rouge:after, .bandeau_gris_fonce:after, .bandeau_bleu:after, .fond_bleu_industriel:after, .bandeau_gris_parent_row:after'
+        +'{'
+        +'width:'+diff+'px;'
+        +'right:-'+diff+'px;'
+        +'}'
+        +'.bandeau_gris:before, .bandeau_rouge:before, .bandeau_gris_fonce:before, .bandeau_bleu:before, .bandeau_gris_parent_row:before'
+        +'{'
+        +'width:'+diff+'px;'
+        +'left:-'+diff+'px;'
+        +'}'
+        +'</style>'
+        +'</div>'
+      );
+
+    }
+    jQuery( window ).resize(function() {
+      resizeBorder();
+    });
+    resizeBorder();
+
+
+  //-- Menu timer
+
+  var timer;
+
+  jQuery(".mega-menu > li").on("mouseover", function() {
+    var nbsel = jQuery('.mega-menu ul.open').length;
+    if(nbsel>0) return;
+
+    clearTimeout(timer);
+    openSubmenu(this);
+  }).on("mouseleave", function() {
+    timer = setTimeout(
+      closeSubmenu
+    , 600);
+  });
+
+
+  function openSubmenu(elem) {
+    jQuery('.mega-menu').addClass("active-open");
+    jQuery(elem).children("ul").addClass("open");
+  }
+  function closeSubmenu() {
+    jQuery(".mega-menu > li > ul").removeClass("open");
+    jQuery('.mega-menu').removeClass("active-open");
+  }
+
+  /* Add some Foundation class */
+
+  jQuery('#path1default').addClass('breadcrumbs');
+
+  jQuery('.arianne ul').addClass("breadcrumbs");
+  jQuery(document).foundation();
+  jQuery('.item_node_selected').addClass('active');
+
+  jQuery(function() {
+        jQuery('.bandeau_gris_parent').parent().addClass('bandeau_gris_parent_row');
+    jQuery( window ).scroll(function() {
+      initElementThemeScroll();
+    });
+  });
+
+  function initElementThemeScroll () {
+    if(jQuery(window).width() < 999) {
+        jQuery('#header').removeClass('min');
+    } else {
+      if(jQuery(window).scrollTop() > 100) {
+        jQuery('#header').addClass('min');
+      } else {
+        jQuery('#header').removeClass('min');
+      }
+    }
+  }
+
+    </script>
+  <!-- Launch foundation -->
+  
+  
+  
+  
+  
+  
+  
+
+
+<!-- *********************************************************************** -->
+<!-- Popup Newsletter -->
+
+<script src="resources/js-cookie/js.cookie.min.js"></script>
+<div id="popup-container-out">
+<div id="popup-container">
+  <a class="close close-win">X</a>
+    <div id="popup-window">
+      <div class="close-win modal-content">
+        <a target="_blank" href="https://elainnovation.com/subscribe-to-newsletters.html?utm_source=Popup_newsletter&utm_medium=popup&utm_campaign=Inscription_Newsletter">
+          <img src="https://elainnovation.com/Local/ela/images/Popup-vectorisee-EN-2020.jpg">
+        </a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<script type="text/javascript">
+////SCRIPT FOR MODAL POPUP WINDOW
+jQuery( document ).ready(function() {
+
+  jQuery('.close-win').click(function(){
+      jQuery('#popup-container-out').fadeOut();
+      jQuery('#active-popup').fadeOut();
+  });
+
+  var visits = Cookies.get('visits') || 0;
+
+  //jQuery.cookie('visits', visits, { expires: 1, path: '/' });
+
+
+  if ( Cookies.get('visits') >= 1 ) {
+    jQuery('#active-popup').hide();
+    jQuery('#popup-container').hide();
+  } else {
+    setTimeout(function(){
+      var pageHeight = jQuery(document).height();
+      jQuery('<div id="active-popup"></div>').insertBefore('body');
+      jQuery('#active-popup').css("height", pageHeight);
+      jQuery('#popup-container-out').show();
+      Cookies.set('visits', 1, { expires: 1 });
+    }, 20000);
+  }
+
+});
+
+
+jQuery(document).mouseup(function(e){
+  var container = jQuery('#popup-container-out');
+
+  if( !container.is(e.target)&& container.has(e.target).length === 0)
+  {
+    container.fadeOut();
+    jQuery('#active-popup').fadeOut();
+  }
+
+});
+</script>
+
+<style type="text/css">
+
+html {
+  height: auto;
+}
+
+#mc_embed_signup {
+  padding: 20px;
+}
+
+#active-popup {
+  background-color: rgba(52,73,94, 0.7);
+  position: fixed;
+  width: 100%;
+  height: 100% !important;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+#popup-container-out {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5%;
+  position: fixed;
+  left: 0;
+  z-index: 9999;
+  top: 0;
+  display: none;
+}
+#popup-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 9999;
+  background: #fff;
+  box-shadow: 2px 2px 10px #000;
+  transition: box-shadow 0.3s;
+}
+#popup-container:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.modal-content {
+  position: relative;
+}
+
+#popup-window { position: relative; }
+
+.modal-content h1 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+#popup-container a.close {
+  position: absolute;
+  float: right;
+  top:   5px;
+  right: 5px;
+  display: inline-block;
+  z-index: 99;
+  font-weight: bold;
+  font-size: 16px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding: 2px 5px 2px 6px;
+  line-height: 1em;
+  text-align: center;
+  background: #333;
+  border: 4px solid #fff;
+  cursor: pointer;
+  color:#fff;
+}
+</style>
+
+<!-- * END POPUP *********************************************************** -->
+<!-- *********************************************************************** -->
+
+</div>
+
+
+<script>
+initDataHelp();
+initGsSession();
+
+</script>
+
+</body>
+</html>

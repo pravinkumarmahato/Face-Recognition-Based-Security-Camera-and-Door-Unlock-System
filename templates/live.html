@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% include 'header.html' %}
+
+{% block title %} Live Streaming {% endblock %}
+
+{% block body %}
+    <div>
+        <center>
+            <br><br><br>
+            <h1>Live Video Streaming</h1>
+            <br>
+            <img src="{{ url_for('video_feed') }}">
+            <br><br><br>
+            <div class="col-md-4 col-md-offset-4">
+                <a href = "{{ url_for('senddata') }}"><button type="submit" name="unlock" class="btn btn-primary btn-lg btn-block"><b>Unlock</b></button></a>
+            </div>
+        </center>
+    </div>
+{% endblock %}
