@@ -1,4 +1,4 @@
-# SECURITY CAMERA & DOOR UNLOCK SYSTEM
+# FACE RECOGNITION BASED SECURITY CAMERA AND DOOR UNLOCK SYSTEM
 
 ### ABSTRACT
 In today's era, we are facing many security challenges on every level. We must use current technologies to solve these issues in order to overcome them. As a result, we came up with the idea of a security camera and door unlocking system. The security camera and door unlock system is implemented using Internet of Things (IoT) technology. The main goal is to secure our home by using Python OpenCV face recognition on a Raspberry Pi 3. When someone approaches the door, the camera catches their face, and the face recognition system running on the Raspberry Pi 3 recognises the person's face, compares it to the faces present in the database, and sends an email to the administrator stating that "someone is waiting at the door". The administrator can then use the door unlock system web app to unlock the door. We'll be using face recognition methods from the OpenCV Python package.
